@@ -1568,7 +1568,7 @@ hr:after {
     text-decoration: var(--ifm-link-decoration)
 }
 
-.button--link.button--active,.button--link:active,.button--link:hover {
+.button--link..button--active,.button--link:active,.button--link:hover {
     color: #3578e5;
     color: var(--ifm-link-hover-color);
     -webkit-text-decoration: underline;
@@ -4824,6 +4824,17 @@ body {
     animation: bounceBook_uy9n 3s linear infinite
 }
 
+. {
+    position: absolute;
+    width: 200px;
+    height: 202px;
+    background: url(https://media.discordapp.net/attachments/771001122436808744/771090997102379018/su.png?width=200&height=200) no-repeat;
+    top: 0;
+    right: 260px;
+    z-index: 1;
+    -webkit-animation: bounceBoost_sssu 2.7s linear infinite;
+    animation: bounceBoost_sssu 2.7s linear infinite
+}
 
 .isle_crayon_3kOh {
     position: absolute;
@@ -5074,3 +5085,4 @@ body {
     font-weight: 700
 }
 
+https://img1.freepng.fr/20180614/rql/kisspng-discord-computer-icons-logo-online-chat-discord-5b229166d9bb79.0427749715289921028919.jpg
